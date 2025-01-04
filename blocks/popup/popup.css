@@ -10,8 +10,9 @@
 
 .popup {
   font-family: 'Inter', Arial, sans-serif;
-  display: none;
+  visibility: hidden;
   align-items: center;
+  opacity: 0;
   justify-content: center;
   background-color: rgba(0, 0, 0, .5);
   position: fixed;
@@ -20,4 +21,13 @@
   bottom: 0;
   right: 0;
   z-index: 10;
+}
+
+.form__input-error {
+  color: #ff0000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
 }

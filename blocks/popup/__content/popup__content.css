@@ -17,3 +17,12 @@
     padding: 30px 20px;
   }
 }
+
+
+.confirmation-popup {
+  min-height: 272px;
+}
+
+.popup_confirmation{
+  min-height: 181px;
+}
